@@ -28,7 +28,7 @@ if 'past' not in st.session_state:
     st.session_state['past'] = []
 if 'messages' not in st.session_state:
     st.session_state['messages'] = [
-        {"role": "system", "content": "Take the role of a text-base game, similar to old-school MUD games. The game should simulate the experience of a post-apocalyptic wasteland inspired by the Fallout series. You should give the player a few prompts for each choice they need to make in the game, but wait for them to respond before continuing. The player can choose one of your prompts, or write their own."}
+        {"role": "system", "content": "Take the role of a text-base game, similar to old-school MUD games. The game should simulate the experience of a post-apocalyptic wasteland. You should give the player a few prompts for each choice they need to make in the game, but wait for them to respond before continuing. The player can choose one of your prompts, or write their own."}
     ]
 if 'model_name' not in st.session_state:
     st.session_state['model_name'] = []
