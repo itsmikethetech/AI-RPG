@@ -11,7 +11,7 @@ def get_api_key():
 
 # Setting page title and header
 st.set_page_config(page_title="RTBRPG", page_icon=":robot_face:")
-st.markdown("<h1 style='text-align: center;'>Random Text-Based RPG</h1><br><h3 style='text-align: center;'>(Post-Apocalyptic)<br>Enter your API key and type 'Start'.</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Random Text-Based RPG</h1><h3 style='text-align: center;'>(Post-Apocalyptic)<br>Enter your API key and type 'Start'.</h3>", unsafe_allow_html=True)
 
 # Set org ID and API key
 openai.organization = ""
