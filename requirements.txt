@@ -39,7 +39,7 @@ Pillow==10.0.1
 platformdirs==3.2.0
 promptlayer==0.1.80
 protobuf==3.20.3
-pyarrow==11.0.0
+pyarrow==14.0.1
 pydantic==1.10.7
 pydeck==0.8.0
 Pygments==2.15.0
